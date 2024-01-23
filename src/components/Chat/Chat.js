@@ -37,7 +37,7 @@ function Chat({ api, temperature, isApiSet }) {
         <a
           className="self-end cursor-pointer flex flex-row items-center justify-center gap-2 bg-slate-600 rounded-sm p-1 px-3 hover:bg-slate-700 no-underline"
           color="gray"
-          href="https://github.com/keit-maybe/Gemini-Chat"
+          href="https://github.com/keit-maybe/gemini-chat-ui"
           target="_blank"
         >
           <GitHubLogoIcon />
