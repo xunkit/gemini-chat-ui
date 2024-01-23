@@ -1,0 +1,46 @@
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.divider {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.divider::after {
+  content: "";
+  height: 50px;
+  border-right: 2px dashed hsl(0deg 0% 50%);
+}
+
+ul,
+ol {
+  @apply flex flex-col gap-4;
+}
+
+pre {
+  @apply bg-slate-950;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+}
+
+input {
+  border: none;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  @apply p-4 max-w-[100svw];
+  height: 100svh;
+}
+
+.messageWrapper {
+  @apply flex-1 mt-[40px];
+  overflow-y: auto;
+}
+
+.user {
+  @apply p-4 bg-indigo-900;
+}
+
+.model {
+  @apply p-4 bg-teal-900;
+}
+
+.input {
+  @apply px-2 flex-1 rounded-sm;
+}
+
+.input:focus {
+  outline: 2px solid var(--color-focus-root);
+  outline-offset: 2px;
+}

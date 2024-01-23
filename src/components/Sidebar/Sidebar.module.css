@@ -1,0 +1,26 @@
+.wrapper {
+  @apply p-4 flex flex-col gap-2 pt-[60px];
+  height: 100svh;
+}
+
+.input {
+  @apply px-2 py-1 rounded-sm;
+}
+
+.input:focus {
+  outline: 2px solid var(--color-focus-root);
+  outline-offset: 2px;
+}
+
+.toggle {
+  @apply absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 0px;
+  backdrop-filter: blur(30px);
+  cursor: pointer;
+}
+
+.settings {
+  @apply mt-auto;
+}
