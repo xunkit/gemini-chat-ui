@@ -59,8 +59,8 @@ function Settings({ temperature, setTemperature, children }) {
             </div>
           </Theme>
 
-          <Dialog.Close>
-            <Cross2Icon className={styles.exitButton} />
+          <Dialog.Close className={styles.exitButton}>
+            <Cross2Icon className={styles.exitSvg} />
           </Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>
