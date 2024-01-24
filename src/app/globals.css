@@ -24,7 +24,7 @@
 
 ul,
 ol {
-  @apply flex flex-col gap-4;
+  @apply flex flex-col;
 }
 
 pre {
@@ -48,4 +48,8 @@ a:focus {
 
 input {
   border: none;
+}
+
+li {
+  margin-inline: 1rem;
 }
